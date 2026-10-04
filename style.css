@@ -332,28 +332,19 @@ img, svg {
   margin-bottom: 0;
 }
 
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
+.about-card {
+  width: 100%;
+  padding: 30px;
 }
 
-.detail-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.about-card .card-title {
+  margin-bottom: 16px;
 }
 
-.detail-list li {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.88rem;
-  padding-bottom: 8px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.detail-list span {
-  color: var(--text-muted);
+.about-card .card-text {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  margin-bottom: 14px;
 }
 
 .two-col-grid {
@@ -597,7 +588,6 @@ img, svg {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .about-grid,
   .two-col-grid,
   .contact-grid {
     grid-template-columns: 1fr;
